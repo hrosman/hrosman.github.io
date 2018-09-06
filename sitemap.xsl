@@ -109,7 +109,6 @@
           <table cellpadding="5" cellspacing="0">
             <tr id="table-header">
               <th>URL</th>
-              <th>Priority</th>
               <th>Change Frequency</th>
               <th>LastChange (GMT)</th>
             </tr>
@@ -133,9 +132,6 @@
                   <a href="{$itemURL}">
                     <xsl:value-of select="sitemap:loc"/>
                   </a>
-                </td>
-                <td>
-                  <xsl:value-of select="concat(sitemap:priority*100,'%')"/>
                 </td>
                 <td>
                   <xsl:value-of select="concat(translate(substring(sitemap:changefreq, 1, 1),concat($lower, $upper),concat($upper, $lower)),substring(sitemap:changefreq, 2))"/>

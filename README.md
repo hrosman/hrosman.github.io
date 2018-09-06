@@ -27,11 +27,11 @@ This relies entirely on CSS to do its thing, which is cool, but that makes
 changing it a bit weird/tricky at first. You can still use pretty much any image
 you want, but for best results make sure yours is:
 
-- Horizontally tileable.
-- Wide and short.
-- About 1500px wide.
-- Fades to a solid color either at the top of bottom (which is used to fill
-  the empty space above or below your image).
+-   Horizontally tileable.
+-   Wide and short.
+-   About 1500px wide.
+-   Fades to a solid color either at the top of bottom (which is used to fill
+    the empty space above or below your image).
 
 Now, there are two ways to use it: with CSS, or with Sass:
 
